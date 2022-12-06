@@ -8,7 +8,7 @@
 #include <TGraphErrors.h>
 #include <TApplication.h>
 
-void Precision_Rec_ADN() {	
+void Fig16() {	
 
 	ifstream Read_0;
 	ifstream Read_SS;
@@ -142,7 +142,7 @@ void Precision_Rec_ADN() {
 
 #ifndef __CINT__
 int main() {
-  Precision_Rec_ADN();
+  Fig16();
   return 0;
 }
 #endif
